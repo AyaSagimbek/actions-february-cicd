@@ -13,5 +13,5 @@ jobs:
     - name: Chekout SCM
       uses: actions/checkout@v4
 
-    - name: check
-      run: ls
+    - name: Run unit test
+      run: pytest
